@@ -1,12 +1,82 @@
-.contenitore{
-  width: 90%;
-  height: 500px;
-  background-color: red;
-  float: right;
+body{
+font-family: 'Roboto Condensed', sans-serif;
+text-align: center;
+color: black;
 }
-.contenitore-sinistra{
-  width: 10%;
-  height: 500px;
-  background-color: black;
-  float: left;
+.wrapper-header{
+width: 10%;
+background-color: black;
+height: 100vh;
+position: fixed;
+}
+.wrapper-main{
+width: 90%;
+float: right;
+display: flex;
+flex-wrap: wrap;
+color: white;
+}
+.box-left,.box-right{
+width: 50%;
+background-color: #becbb7;
+}
+
+.box-right{
+background-color: #7c9180;
+}
+.size{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.text{
+width: 380px;
+}
+.text h1{
+font-size: 97px;
+color: #8da79d;
+-webkit-text-stroke: 2px white;
+font-weight: 500;
+letter-spacing: 14px;
+margin: 0 0 20px;
+position: relative;
+}
+.text h3{
+font-size: 24px;
+line-height: 28px;
+font-weight: 500;
+letter-spacing: 5px;
+margin-bottom: 40px;
+}
+  .text h3:after{
+  content: "";
+  position: absolute;
+  left: 77%;
+  bottom: 234px;
+  width: 20px;
+  height: 3px;
+  background: #fff;
+  margin: 4px 0;
+  }
+  .full-box{
+  width: 100%;
+
+  margin: 50px 0;
+  }
+/********typo*************/
+h1{
+max-width: 600px;
+font-size: 65px;
+line-height: 80px;
+margin: 0 auto;
+text-transform: uppercase;
+letter-spacing: 9px;
+color: black;
+}
+p{
+font-size: 14px;
+color: white;
+line-height: 22px;
 }
