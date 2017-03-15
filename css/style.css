@@ -88,10 +88,16 @@ position: relative;
   .text p{
   color: white;
   }
-  .full-box{
-  width: 100%;
-  margin: 50px 0;
-  }
+
+.full-box{
+width: 100%;
+margin: 50px 0;
+display: flex;
+justify-content: center;
+}
+.new-graphics{
+width: 35%;
+}
 /********typo*************/
 h1{
 max-width: 600px;
