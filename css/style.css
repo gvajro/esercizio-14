@@ -5,6 +5,7 @@ color: black;
 padding: 0;
 margin: 0;
 }
+
 .wrapper-header{
 width: 10%;
 background-color: black;
@@ -101,13 +102,25 @@ text-transform: uppercase;
 letter-spacing: 9px;
 color: black;
 font-family: 'Didact Gothic', sans-serif;
-
+}
+a{
+text-decoration: none;
+color: #929292;
 }
 p{
 font-size: 14px;
 color: black;
 line-height: 22px;
 font-family: 'Didact Gothic', sans-serif;
+}
+ul{
+padding: 0;
+}
+.menu li{
+font-size: 40px;
+display:flex;
+justify-content: center;
+margin: 20px auto;
 }
 /**********************************************/
 .box-tree{
@@ -119,4 +132,8 @@ display: inline-block;
 }
 .box-seco{
 background-color: #cac4b9;
+}
+.icon-menu:hover,.icon-cart:hover,.icon-search:hover{
+color: white;
+transition: all 0.3s ease-in-out;
 }
