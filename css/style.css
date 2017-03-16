@@ -16,7 +16,9 @@ z-index: 10;
 .logo{
 margin: 40px auto;
 margin-bottom: 200px;
+position: relative;
 }
+
 
 .wrapper-main{
 width: 90%;
@@ -54,7 +56,11 @@ position: relative;
   .info:hover{
     text-decoration: none;
     background-color: rgba(0,0,0,0.3);
+    color: white;
   }
+.hover-text{
+position: relative;
+}
 
 .text{
 width: 380px;
@@ -202,13 +208,33 @@ border-right: 1px solid #d9d9d9;
   }
 
 .footer{
-color: white;
 background-color: #2d2d2d;
+float: right;
+width: 90%;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
+margin: 0px auto;
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.footer-text p{
+color: white;
+}
+.icon-footer{
+margin-right: 30px;
 }
   .icon-footer li{
   display: inline-block;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
+  padding: 0 10px;
+  }
+.icon-footer a{
+color: white;
+}
+  .icon-footer a:hover{
+  color: #929292;
   }
