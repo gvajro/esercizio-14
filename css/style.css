@@ -15,6 +15,7 @@ z-index: 10;
 }
 .logo{
 margin: 40px auto;
+margin-bottom: 200px;
 }
 
 .wrapper-main{
@@ -91,12 +92,12 @@ position: relative;
 
 .full-box{
 width: 100%;
-margin: 50px 0;
+margin: 30px 0;
 display: flex;
 justify-content: center;
 }
 .new-graphics{
-width: 35%;
+width: 40%;
 }
 /********typo*************/
 h1{
@@ -109,6 +110,14 @@ letter-spacing: 9px;
 color: black;
 font-family: 'Didact Gothic', sans-serif;
 }
+h3{
+font-size: 22px;
+margin: 10 0 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-family: 'Didact Gothic', sans-serif;
+}
+
 a{
 text-decoration: none;
 color: #929292;
@@ -118,15 +127,17 @@ font-size: 14px;
 color: black;
 line-height: 22px;
 font-family: 'Didact Gothic', sans-serif;
+max-width: 430px;
+margin: 10px auto;
 }
 ul{
 padding: 0;
 }
 .menu li{
-font-size: 40px;
+font-size: 35px;
 display:flex;
 justify-content: center;
-margin: 20px auto;
+margin: 30px auto;
 }
 .banner img{
 width: 100%;
@@ -145,4 +156,19 @@ background-color: #cac4b9;
 .icon-menu:hover,.icon-cart:hover,.icon-search:hover{
 color: white;
 transition: all 0.3s ease-in-out;
+}
+.full-box-text{
+display: inline;
+}
+  .full-box-text a{
+  color: black;
+  }
+
+.text-left_box,
+.text-right_box{
+width: 50%;
+float: left;
+}
+.text-right_box{
+float: right;
 }
