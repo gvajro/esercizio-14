@@ -172,3 +172,12 @@ float: left;
 .text-right_box{
 float: right;
 }
+.banner-sale,
+.banner-web{
+width: 100%;
+background-image: url('../image/Sale.jpg');
+background-size: cover;
+}
+.banner-web{
+background-image: url('../image/natural-web.jpg');
+}
